@@ -6,7 +6,7 @@ let zahirr = db.get("zahirr");
 } catch (e) {
 	console.log('')  
 }
-let creator = "xfar"
+let creator = "bakulcilok"
 let axios = require('axios')
 let fs = require('fs')
 let fetch = require('node-fetch');
@@ -42,7 +42,7 @@ loghandler = {
     error: {
         status: 404,
         creator: `${creator}`,
-        message: 'An internal error occurred. Please report via WhatsApp wa.me/62895619083555'
+        message: 'An internal error occurred. Please report via WhatsApp wa.me/6282144572368'
     }
 }
 router.get('/canvas/welcome', async (req, res) => {
